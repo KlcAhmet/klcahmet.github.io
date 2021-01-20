@@ -10,10 +10,6 @@
 
 body {
     background-color: #000000;
-    @media screen and (max-width: 600px) {
-        border: 2px solid greenyellow;
-        height: 100%;
-    }
 }
 
 .nav {
@@ -199,6 +195,16 @@ body {
         img:hover {
             box-shadow: 0px 0px 24px 12px rgba(15, 76, 92, 0.82);
             background-color: rgba(15, 76, 92, 0.5);
+        }
+    }
+    @media screen and (max-width: 600px) {
+        &__socialmedia {
+            display: flex;
+            justify-content: center;
+        }
+        &__sponsor {
+            display: flex;
+            justify-content: center;
         }
     }
 }
