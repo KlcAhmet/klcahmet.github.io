@@ -79,6 +79,7 @@ body {
     &__header {
         font-family: 'Ultra', serif;
         font-size: 40px;
+        color: var(--color-white);
         span {
             display: block;
         }
@@ -87,12 +88,17 @@ body {
         }
     }
     p {
-        margin-top: 20px;
+        color: var(--color-white);
+        font-size: 18px;
+        font-weight: 900;
+        margin-top: 50px;
     }
 }
 
 .picture {
-    img {
-        opacity: 0.5;
+    figure {
+        img {
+            opacity: 0.5;
+        }
     }
 }
