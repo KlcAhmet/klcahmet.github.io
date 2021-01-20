@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Staatliches&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ultra&display=swap);
 :root {
     --navlink-font-style: 'Staatliches', cursive;
     --navlink-font-weight: 800;
@@ -6,15 +7,12 @@
     --color-blue: #1e91d6;
 }
 
-html {
+body {
+    background-color: #000000;
     @media screen and (max-width: 600px) {
         border: 2px solid greenyellow;
         height: 100%;
     }
-}
-
-body {
-    background-color: #000000;
 }
 
 .nav {
@@ -74,5 +72,27 @@ body {
                 margin: 10px;
             }
         }
+    }
+}
+
+.desc {
+    &__header {
+        font-family: 'Ultra', serif;
+        font-size: 40px;
+        span {
+            display: block;
+        }
+        .andspan {
+            text-align: center;
+        }
+    }
+    p {
+        margin-top: 20px;
+    }
+}
+
+.picture {
+    img {
+        opacity: 0.5;
     }
 }
