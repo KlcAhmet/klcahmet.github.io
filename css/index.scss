@@ -5,6 +5,7 @@
     --navlink-font-weight: 800;
     --color-white: #f4f4f6;
     --color-blue: #1e91d6;
+    --desc-info-margin: 10px;
 }
 
 body {
@@ -117,7 +118,10 @@ body {
     @media screen and (max-width: 600px) {
         &__header {
             font-size: 20px;
-            margin-left: 10px;
+            margin-left: var(--desc-info-margin);
+        }
+        &__info {
+            margin-left: var(--desc-info-margin);
         }
     }
 }
