@@ -189,11 +189,6 @@ body {
   border-radius: 5px;
 }
 
-.footer__socialmedia .github:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-}
-
 .footer__socialmedia .codepen {
   background-color: #ffe5d9;
   border: 2px solid #f4acb7;
