@@ -1,0 +1,18 @@
+:root {
+    --navlink-font-style: font-family: 'Anton', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.nav {
+    &__logo {
+        background-color: yellow;
+    }
+    &__link {
+        display: flex;
+        justify-content: flex-end;
+        font-style: var(--navlink-font-style);
+    }
+}

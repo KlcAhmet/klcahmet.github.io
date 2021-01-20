@@ -1,0 +1,17 @@
+body {
+  background-color: #000000;
+}
+
+.nav__logo {
+  background-color: yellow;
+}
+
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=index.css.map */
