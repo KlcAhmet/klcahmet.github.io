@@ -6,6 +6,13 @@
   --color-blue: #1e91d6;
 }
 
+@media screen and (max-width: 600px) {
+  html {
+    border: 2px solid greenyellow;
+    height: 100%;
+  }
+}
+
 body {
   background-color: #000000;
 }
@@ -63,5 +70,24 @@ body {
   color: var(--color-blue);
   font-size: 30px;
   margin: 0px 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__logo figure {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .nav__link {
+    display: block;
+  }
+  .nav__link a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

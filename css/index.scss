@@ -6,6 +6,13 @@
     --color-blue: #1e91d6;
 }
 
+html {
+    @media screen and (max-width: 600px) {
+        border: 2px solid greenyellow;
+        height: 100%;
+    }
+}
+
 body {
     background-color: #000000;
 }
@@ -49,6 +56,22 @@ body {
             color: var(--color-blue);
             font-size: 30px;
             margin: 0px 4px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        &__logo {
+            figure {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+        }
+        &__link {
+            display: block;
+            a {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+            }
         }
     }
 }
