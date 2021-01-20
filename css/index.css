@@ -102,7 +102,7 @@ body {
   color: var(--color-white);
 }
 
-.desc__header span {
+.desc__header .span--display {
   display: block;
 }
 
@@ -115,6 +115,35 @@ body {
   font-size: 18px;
   font-weight: 900;
   margin-top: 50px;
+}
+
+.desc--spancolor {
+  -webkit-animation: color-change 5s infinite;
+          animation: color-change 5s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: yellow;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: yellow;
+  }
 }
 
 .picture figure img {
