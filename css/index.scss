@@ -112,6 +112,11 @@ body {
             color: yellow;
         }
     }
+    @media screen and (max-width: 600px) {
+        &__header {
+            font-size: 20px;
+        }
+    }
 }
 
 .picture {

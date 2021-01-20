@@ -152,6 +152,12 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .desc__header {
+    font-size: 20px;
+  }
+}
+
 .picture figure img {
   opacity: 0.5;
 }
