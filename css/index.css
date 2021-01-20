@@ -110,11 +110,17 @@ body {
   text-align: center;
 }
 
-.desc p {
+.desc__info {
   color: var(--color-white);
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 400;
   margin-top: 50px;
+}
+
+.desc__info .spananimation {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgba(134, 2, 2, 0.719);
 }
 
 .desc--spancolor {

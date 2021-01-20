@@ -87,11 +87,16 @@ body {
             text-align: center;
         }
     }
-    p {
+    &__info {
         color: var(--color-white);
         font-size: 18px;
-        font-weight: 900;
+        font-weight: 400;
         margin-top: 50px;
+        .spananimation {
+            font-size: 20px;
+            font-weight: 900;
+            color: rgba(134, 2, 2, 0.719);
+        }
     }
     &--spancolor {
         animation: color-change 5s infinite;
