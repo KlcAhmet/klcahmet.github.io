@@ -52,16 +52,16 @@ body {
 }
 
 .nav__link a:hover {
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
   border-left-color: red;
   border-right-color: red;
   color: var(--color-blue);
 }
 
 .nav__link a:hover span {
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
   color: var(--color-white);
 }
 

@@ -39,12 +39,12 @@ body {
             margin: 0px 10px;
         }
         a:hover {
-            transition: 500ms;
+            transition: 300ms;
             border-left-color: red;
             border-right-color: red;
             color: var(--color-blue);
             span {
-                transition: 500ms;
+                transition: 300ms;
                 color: var(--color-white);
             }
         }
