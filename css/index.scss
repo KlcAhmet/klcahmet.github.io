@@ -58,6 +58,7 @@ body {
         }
     }
     @media screen and (max-width: 600px) {
+        margin-bottom: 90px;
         &__logo {
             figure {
                 text-align: center;
@@ -116,6 +117,7 @@ body {
     @media screen and (max-width: 600px) {
         &__header {
             font-size: 20px;
+            margin-left: 10px;
         }
     }
 }

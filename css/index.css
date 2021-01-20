@@ -78,6 +78,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .nav {
+    margin-bottom: 90px;
+  }
   .nav__logo figure {
     text-align: center;
     margin-bottom: 30px;
@@ -156,6 +159,7 @@ body {
 @media screen and (max-width: 600px) {
   .desc__header {
     font-size: 20px;
+    margin-left: 10px;
   }
 }
 
