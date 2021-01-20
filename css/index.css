@@ -128,6 +128,10 @@ body {
   text-decoration: underline;
 }
 
+.desc__picture figure img {
+  opacity: 0.5;
+}
+
 .desc--spancolor {
   -webkit-animation: color-change 5s infinite;
           animation: color-change 5s infinite;
@@ -167,7 +171,59 @@ body {
   }
 }
 
-.picture figure img {
-  opacity: 0.5;
+.footer {
+  margin-top: 30px;
+}
+
+.footer__socialmedia a {
+  margin: 10px;
+}
+
+.footer__socialmedia img {
+  height: 30px;
+}
+
+.footer__socialmedia .github {
+  background-color: #ef476f;
+  border: 2px solid var(--color-blue);
+  border-radius: 5px;
+}
+
+.footer__socialmedia .github:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.footer__socialmedia .codepen {
+  background-color: #ffe5d9;
+  border: 2px solid #f4acb7;
+  border-radius: 5px;
+}
+
+.footer__socialmedia .linked {
+  background-color: var(--color-blue);
+  border: 2px solid #71697a;
+  border-radius: 5px;
+}
+
+.footer__socialmedia .instagram {
+  background-color: #1e91d6;
+  border: 2px solid #0f4c5c;
+  border-radius: 10px;
+}
+
+.footer__socialmedia .mail {
+  background-color: #ffe5d9;
+  border: 2px solid #e5383b;
+  border-radius: 5px;
+}
+
+.footer__sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=index.css.map */
