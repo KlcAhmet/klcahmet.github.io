@@ -17,7 +17,7 @@ async function descparagraph() {
     while (true) {
         for (var i = 0; i < headerDesc.children.length; i++) {
             headerDesc.children[i].classList.add("spananimation");
-            await sleep(1000);
+            await sleep(800);
             headerDesc.children[i].classList.remove("spananimation");
         }
     }
