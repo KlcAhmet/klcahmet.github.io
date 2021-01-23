@@ -117,7 +117,7 @@ body {
 }
 
 .desc__info .spananimation {
-  color: rgba(134, 2, 2, 0.719);
+  color: var(--color-header-link);
   text-decoration: underline;
 }
 
