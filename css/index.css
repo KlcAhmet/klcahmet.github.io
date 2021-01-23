@@ -8,6 +8,7 @@
   --color-header-desc: #fafdf6;
   --color-header-link-hover: rgb(74, 190, 240);
   --desc-info-margin: 10px;
+  --opacity-animation: opacity 3s forwards;
 }
 
 body {
@@ -51,8 +52,8 @@ body {
   font-size: 20px;
   text-decoration: none;
   margin: 0px 10px;
-  -webkit-animation: opacity 5s forwards;
-          animation: opacity 5s forwards;
+  -webkit-animation: var(--opacity-animation);
+          animation: var(--opacity-animation);
 }
 
 .nav__link a:hover {
@@ -98,8 +99,8 @@ body {
 }
 
 .desc {
-  -webkit-animation: opacity 5s forwards;
-          animation: opacity 5s forwards;
+  -webkit-animation: var(--opacity-animation);
+          animation: var(--opacity-animation);
 }
 
 .desc__header {
