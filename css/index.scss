@@ -40,17 +40,6 @@ body {
             text-decoration: none;
             margin: 0px 10px;
             animation: opacity 5s forwards;
-            @keyframes opacity {
-                0% {
-                    opacity: 0.2;
-                }
-                50% {
-                    color: 0.5;
-                }
-                100% {
-                    color: 1.0;
-                }
-            }
         }
         a:hover {
             transition: 300ms;
@@ -88,6 +77,7 @@ body {
 }
 
 .desc {
+    animation: opacity 5s forwards;
     &__header {
         font-family: 'Ultra', serif;
         font-size: 40px;
@@ -218,5 +208,17 @@ body {
             display: flex;
             justify-content: center;
         }
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0.1;
+    }
+    50% {
+        color: 0.3;
+    }
+    100% {
+        color: 1.0;
     }
 }

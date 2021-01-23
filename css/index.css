@@ -55,30 +55,6 @@ body {
           animation: opacity 5s forwards;
 }
 
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0.2;
-  }
-  50% {
-    color: 0.5;
-  }
-  100% {
-    color: 1.0;
-  }
-}
-
-@keyframes opacity {
-  0% {
-    opacity: 0.2;
-  }
-  50% {
-    color: 0.5;
-  }
-  100% {
-    color: 1.0;
-  }
-}
-
 .nav__link a:hover {
   -webkit-transition: 300ms;
   transition: 300ms;
@@ -119,6 +95,11 @@ body {
             justify-content: center;
     margin: 10px;
   }
+}
+
+.desc {
+  -webkit-animation: opacity 5s forwards;
+          animation: opacity 5s forwards;
 }
 
 .desc__header {
@@ -298,6 +279,30 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    color: 0.3;
+  }
+  100% {
+    color: 1.0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    color: 0.3;
+  }
+  100% {
+    color: 1.0;
   }
 }
 /*# sourceMappingURL=index.css.map */
