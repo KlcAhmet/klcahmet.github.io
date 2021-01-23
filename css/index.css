@@ -51,6 +51,32 @@ body {
   font-size: 20px;
   text-decoration: none;
   margin: 0px 10px;
+  -webkit-animation: opacity 5s forwards;
+          animation: opacity 5s forwards;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    color: 0.5;
+  }
+  100% {
+    color: 1.0;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    color: 0.5;
+  }
+  100% {
+    color: 1.0;
+  }
 }
 
 .nav__link a:hover {

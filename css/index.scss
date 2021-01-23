@@ -39,6 +39,18 @@ body {
             font-size: 20px;
             text-decoration: none;
             margin: 0px 10px;
+            animation: opacity 5s forwards;
+            @keyframes opacity {
+                0% {
+                    opacity: 0.2;
+                }
+                50% {
+                    color: 0.5;
+                }
+                100% {
+                    color: 1.0;
+                }
+            }
         }
         a:hover {
             transition: 300ms;
