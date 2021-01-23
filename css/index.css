@@ -3,8 +3,8 @@
 :root {
   --navlink-font-style: 'Staatliches', cursive;
   --navlink-font-weight: 800;
-  --color-white: #f4f4f6;
-  --color-blue: #1e91d6;
+  --color-header-link: #f4f4f6;
+  --color-header-span: #1e91d6;
   --desc-info-margin: 10px;
 }
 
@@ -39,7 +39,7 @@ body {
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
   line-height: 20px;
-  color: var(--color-white);
+  color: var(--color-header-link);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,17 +56,17 @@ body {
   transition: 300ms;
   border-left-color: red;
   border-right-color: red;
-  color: var(--color-blue);
+  color: var(--color-header-span);
 }
 
 .nav__link a:hover span {
   -webkit-transition: 300ms;
   transition: 300ms;
-  color: var(--color-white);
+  color: var(--color-header-link);
 }
 
 .nav__link span {
-  color: var(--color-blue);
+  color: var(--color-header-span);
   font-size: 30px;
   margin: 0px 4px;
 }
@@ -96,7 +96,7 @@ body {
 .desc__header {
   font-family: 'Ultra', serif;
   font-size: 40px;
-  color: var(--color-white);
+  color: var(--color-header-link);
 }
 
 .desc__header .span--display {
@@ -108,7 +108,7 @@ body {
 }
 
 .desc__info {
-  color: var(--color-white);
+  color: var(--color-header-link);
   font-size: 18px;
   font-weight: 400;
   margin-top: 50px;
@@ -176,7 +176,7 @@ body {
 
 .footer__socialmedia .github {
   background-color: #ef476f;
-  border: 2px solid var(--color-blue);
+  border: 2px solid var(--color-header-span);
   border-radius: 5px;
 }
 
@@ -187,7 +187,7 @@ body {
 }
 
 .footer__socialmedia .linked {
-  background-color: var(--color-blue);
+  background-color: var(--color-header-span);
   border: 2px solid #71697a;
   border-radius: 5px;
 }
@@ -208,7 +208,7 @@ body {
   -webkit-transform: scale(2);
           transform: scale(2);
   border-color: #ef476f;
-  background-color: var(--color-blue);
+  background-color: var(--color-header-span);
 }
 
 .footer__socialmedia .codepen:hover {
@@ -221,7 +221,7 @@ body {
 .footer__socialmedia .linked:hover {
   -webkit-transform: scale(2);
           transform: scale(2);
-  border-color: var(--color-blue);
+  border-color: var(--color-header-span);
   background-color: #71697a;
 }
 

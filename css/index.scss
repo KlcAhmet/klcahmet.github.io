@@ -3,8 +3,8 @@
 :root {
     --navlink-font-style: 'Staatliches', cursive;
     --navlink-font-weight: 800;
-    --color-white: #f4f4f6;
-    --color-blue: #1e91d6;
+    --color-header-link: #f4f4f6;
+    --color-header-span: #1e91d6;
     --desc-info-margin: 10px;
 }
 
@@ -31,7 +31,7 @@ body {
             border-left: 2px solid transparent;
             border-right: 2px solid transparent;
             line-height: 20px;
-            color: var(--color-white);
+            color: var(--color-header-link);
             display: flex;
             align-items: center;
             font-size: 20px;
@@ -42,14 +42,14 @@ body {
             transition: 300ms;
             border-left-color: red;
             border-right-color: red;
-            color: var(--color-blue);
+            color: var(--color-header-span);
             span {
                 transition: 300ms;
-                color: var(--color-white);
+                color: var(--color-header-link);
             }
         }
         span {
-            color: var(--color-blue);
+            color: var(--color-header-span);
             font-size: 30px;
             margin: 0px 4px;
         }
@@ -77,7 +77,7 @@ body {
     &__header {
         font-family: 'Ultra', serif;
         font-size: 40px;
-        color: var(--color-white);
+        color: var(--color-header-link);
         .span--display {
             display: block;
         }
@@ -86,7 +86,7 @@ body {
         }
     }
     &__info {
-        color: var(--color-white);
+        color: var(--color-header-link);
         font-size: 18px;
         font-weight: 400;
         margin-top: 50px;
@@ -138,7 +138,7 @@ body {
         }
         .github {
             background-color: #ef476f;
-            border: 2px solid var(--color-blue);
+            border: 2px solid var(--color-header-span);
             border-radius: 5px;
         }
         .codepen {
@@ -147,7 +147,7 @@ body {
             border-radius: 5px;
         }
         .linked {
-            background-color: var(--color-blue);
+            background-color: var(--color-header-span);
             border: 2px solid #71697a;
             border-radius: 5px;
         }
@@ -164,7 +164,7 @@ body {
         .github:hover {
             transform: scale(2.0);
             border-color: #ef476f;
-            background-color: var(--color-blue);
+            background-color: var(--color-header-span);
         }
         .codepen:hover {
             transform: scale(2.0);
@@ -173,7 +173,7 @@ body {
         }
         .linked:hover {
             transform: scale(2.0);
-            border-color: var(--color-blue);
+            border-color: var(--color-header-span);
             background-color: #71697a;
         }
         .instagram:hover {
