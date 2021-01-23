@@ -5,6 +5,8 @@
   --navlink-font-weight: 800;
   --color-header-link: #DBA200;
   --color-header-span: #d6d6d6;
+  --color-header-desc: #fafdf6;
+  --color-header-link-hover: rgb(74, 190, 240);
   --desc-info-margin: 10px;
 }
 
@@ -54,8 +56,8 @@ body {
 .nav__link a:hover {
   -webkit-transition: 300ms;
   transition: 300ms;
-  border-left-color: red;
-  border-right-color: red;
+  border-left-color: var(--color-header-link-hover);
+  border-right-color: var(--color-header-link-hover);
   color: var(--color-header-span);
 }
 
@@ -96,7 +98,7 @@ body {
 .desc__header {
   font-family: 'Ultra', serif;
   font-size: 40px;
-  color: var(--color-header-link);
+  color: var(--color-header-desc);
 }
 
 .desc__header .span--display {
@@ -108,7 +110,7 @@ body {
 }
 
 .desc__info {
-  color: var(--color-header-link);
+  color: var(--color-header-desc);
   font-size: 18px;
   font-weight: 400;
   margin-top: 50px;
