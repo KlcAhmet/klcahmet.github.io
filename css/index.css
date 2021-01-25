@@ -13,19 +13,19 @@ body {
   background-color: #000000;
 }
 
-.nav {
+.navbar {
   margin: 15px 0px;
 }
 
-.nav__logo figure {
+.navbar__logo figure {
   margin: 0;
 }
 
-.nav__logo figure img {
+.navbar__logo figure img {
   max-height: 80px;
 }
 
-.nav__link {
+.navbar__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +35,7 @@ body {
   font-family: var(--navlink-font-style);
 }
 
-.nav__link a {
+.navbar__link a {
   color: var(--color-header-link);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,30 +50,27 @@ body {
           animation: var(--opacity-animation);
 }
 
-.nav__link a:hover {
+.navbar__link a:hover {
   -webkit-transition: 100ms;
   transition: 100ms;
   color: var(--color-header-span);
 }
 
 @media screen and (max-width: 600px) {
-  .nav {
-    margin-bottom: 90px;
+  .navbar {
+    margin-bottom: 25px;
   }
-  .nav__logo figure {
+  .navbar__logo figure {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
-  .nav__link {
+  .navbar__link {
     display: block;
   }
-  .nav__link a {
+  .navbar__link a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin: 10px;
   }
 }
@@ -85,16 +82,16 @@ body {
 
 .desc__header {
   font-family: 'Ultra', serif;
-  font-size: 30px;
+  font-size: 28px;
   color: var(--color-header-desc);
 }
 
-.desc__header .span--display {
-  display: block;
+.desc__header--size {
+  font-size: 18px;
 }
 
-.desc__header .andspan {
-  text-align: center;
+.desc__header span {
+  color: var(--color-header-link);
 }
 
 .desc__info {
@@ -109,15 +106,34 @@ body {
   text-decoration: underline;
 }
 
+.desc__picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
 .desc__picture figure img {
   opacity: 0.5;
   max-width: 500px;
+}
+
+.desc--spancolor {
+  color: var(--color-header-link);
 }
 
 @media screen and (max-width: 600px) {
   .desc__header {
     font-size: 20px;
     margin-left: var(--desc-info-margin);
+  }
+  .desc__header--size {
+    font-size: 18px;
   }
   .desc__info {
     margin-left: var(--desc-info-margin);

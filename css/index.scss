@@ -13,7 +13,7 @@ body {
     background-color: #000000;
 }
 
-.nav {
+.navbar {
     margin: 15px 0px;
     &__logo {
         figure {
@@ -42,18 +42,17 @@ body {
         }
     }
     @media screen and (max-width: 600px) {
-        margin-bottom: 90px;
+        margin-bottom: 25px;
         &__logo {
             figure {
                 text-align: center;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
         }
         &__link {
             display: block;
             a {
                 display: flex;
-                justify-content: center;
                 margin: 10px;
             }
         }
@@ -64,13 +63,13 @@ body {
     animation: var(--opacity-animation);
     &__header {
         font-family: 'Ultra', serif;
-        font-size: 30px;
+        font-size: 28px;
         color: var(--color-header-desc);
-        .span--display {
-            display: block;
+        &--size {
+            font-size: 18px;
         }
-        .andspan {
-            text-align: center;
+        span {
+            color: var(--color-header-link);
         }
     }
     &__info {
@@ -84,6 +83,9 @@ body {
         }
     }
     &__picture {
+        display: flex;
+        justify-content: flex-end;
+        align-items: stretch;
         figure {
             img {
                 opacity: 0.5;
@@ -91,11 +93,16 @@ body {
             }
         }
     }
-    &--spancolor {}
+    &--spancolor {
+        color: var(--color-header-link);
+    }
     @media screen and (max-width: 600px) {
         &__header {
             font-size: 20px;
             margin-left: var(--desc-info-margin);
+            &--size {
+                font-size: 18px;
+            }
         }
         &__info {
             margin-left: var(--desc-info-margin);
