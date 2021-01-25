@@ -98,10 +98,10 @@ body {
     }
     @media screen and (max-width: 600px) {
         &__header {
-            font-size: 20px;
+            font-size: 18px;
             margin-left: var(--desc-info-margin);
             &--size {
-                font-size: 18px;
+                font-size: 15px;
             }
         }
         &__info {

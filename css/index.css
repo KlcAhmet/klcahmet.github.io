@@ -129,11 +129,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .desc__header {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: var(--desc-info-margin);
   }
   .desc__header--size {
-    font-size: 18px;
+    font-size: 15px;
   }
   .desc__info {
     margin-left: var(--desc-info-margin);
