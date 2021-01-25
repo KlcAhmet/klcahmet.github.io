@@ -96,8 +96,21 @@ body {
     &--spancolor {
         color: var(--color-header-link);
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__info {
+            margin-left: var(--desc-info-margin);
+        }
+        &__picture {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width: 770px) {
         &__header {
+            text-align: left;
             font-size: 18px;
             margin-left: var(--desc-info-margin);
             &--size {
@@ -107,6 +120,9 @@ body {
         &__info {
             margin-left: var(--desc-info-margin);
         }
+    }
+    @media screen and (max-width: 600px) {
+        display: block;
     }
 }
 
