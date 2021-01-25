@@ -85,7 +85,7 @@ body {
 
 .desc__header {
   font-family: 'Ultra', serif;
-  font-size: 40px;
+  font-size: 30px;
   color: var(--color-header-desc);
 }
 
@@ -111,35 +111,7 @@ body {
 
 .desc__picture figure img {
   opacity: 0.5;
-}
-
-.desc--spancolor {
-  -webkit-animation: color-change 5s infinite;
-          animation: color-change 5s infinite;
-}
-
-@-webkit-keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: yellow;
-  }
-}
-
-@keyframes color-change {
-  0% {
-    color: red;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: yellow;
-  }
+  max-width: 500px;
 }
 
 @media screen and (max-width: 600px) {

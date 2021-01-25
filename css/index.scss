@@ -64,7 +64,7 @@ body {
     animation: var(--opacity-animation);
     &__header {
         font-family: 'Ultra', serif;
-        font-size: 40px;
+        font-size: 30px;
         color: var(--color-header-desc);
         .span--display {
             display: block;
@@ -87,23 +87,11 @@ body {
         figure {
             img {
                 opacity: 0.5;
+                max-width: 500px;
             }
         }
     }
-    &--spancolor {
-        animation: color-change 5s infinite;
-    }
-    @keyframes color-change {
-        0% {
-            color: red;
-        }
-        50% {
-            color: blue;
-        }
-        100% {
-            color: yellow;
-        }
-    }
+    &--spancolor {}
     @media screen and (max-width: 600px) {
         &__header {
             font-size: 20px;
