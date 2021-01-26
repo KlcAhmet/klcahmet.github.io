@@ -56,22 +56,31 @@ body {
   color: var(--color-header-span);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
   .navbar {
-    margin-bottom: 25px;
+    margin-bottom: 80px;
+    text-align: center;
   }
   .navbar__logo figure {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .navbar__link {
-    display: block;
-  }
-  .navbar__link a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar__link a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar__link a {
+    font-size: 13px;
   }
 }
 

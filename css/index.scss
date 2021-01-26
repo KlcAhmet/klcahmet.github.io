@@ -41,19 +41,27 @@ body {
             color: var(--color-header-span);
         }
     }
-    @media screen and (max-width: 600px) {
-        margin-bottom: 25px;
+    @media screen and (max-width: 770px) {
+        margin-bottom: 80px;
+        text-align: center;
         &__logo {
             figure {
                 text-align: center;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
         }
         &__link {
-            display: block;
+            display: flex;
+            justify-content: center;
             a {
-                display: flex;
-                margin: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        &__link {
+            a {
+                font-size: 13px;
             }
         }
     }
