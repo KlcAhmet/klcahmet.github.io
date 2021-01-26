@@ -41,6 +41,9 @@ body {
             color: var(--color-header-span);
         }
     }
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 50px;
+    }
     @media screen and (max-width: 770px) {
         margin-bottom: 80px;
         text-align: center;
@@ -131,6 +134,15 @@ body {
     }
     @media screen and (max-width: 600px) {
         display: block;
+        &__header {
+            font-size: 15px;
+            &--size {
+                font-size: 13px;
+            }
+        }
+        &__info {
+            font-size: 12px;
+        }
     }
 }
 

@@ -56,6 +56,12 @@ body {
   color: var(--color-header-span);
 }
 
+@media screen and (max-width: 1200px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .navbar {
     margin-bottom: 80px;
@@ -179,6 +185,15 @@ body {
 @media screen and (max-width: 600px) {
   .desc {
     display: block;
+  }
+  .desc__header {
+    font-size: 15px;
+  }
+  .desc__header--size {
+    font-size: 13px;
+  }
+  .desc__info {
+    font-size: 12px;
   }
 }
 
