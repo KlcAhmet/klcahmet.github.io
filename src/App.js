@@ -4,7 +4,7 @@ import {
   Route
 } from "react-router-dom"
 
-import { Homepage } from './components map/Map'
+import { Homepage, Header } from './components map/Map'
 
 function App() {
   return (
