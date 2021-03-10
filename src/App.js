@@ -5,6 +5,8 @@ import {
 } from "react-router-dom"
 
 import { Homepage, Header, Footer } from './components map/Map'
+/* CSS */
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
