@@ -12,15 +12,21 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
-        <main>
-          <div className="">
-            <Switch>
-              <Route path="/" component={Homepage} />
-            </Switch>
+        <div className="row">
+          <div className="col-1">
+            <Header />
           </div>
-        </main>
-        <Footer />
+          <div className="col-11">
+            <main>
+              <div className="">
+                <Switch>
+                  <Route path="/" component={Homepage} />
+                </Switch>
+              </div>
+            </main>
+            <Footer />
+          </div>
+        </div>
       </Router >
     </div>
   );
