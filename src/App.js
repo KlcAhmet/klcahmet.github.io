@@ -9,6 +9,7 @@ import { Homepage, Header, Footer } from './components map/Map'
 import 'bootstrap/dist/css/bootstrap.css'
 import './css/particles.css'
 import './css/particle.css'
+import './css/App.css'
 
 
 function App() {
