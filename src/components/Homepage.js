@@ -10,6 +10,8 @@ function Homepage() {
                 <h1 className="welcome__title">Ahmet Batuhan Kılıç</h1>
                 <p className="welcome__subtitle">Front-end Developer</p>
             </div>
+            <div className="opacitydiv">
+            </div>
         </div>
     )
 }
