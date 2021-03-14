@@ -1,1 +1,34 @@
-body {}
+body {
+    /* background-color: #000; */
+}
+
+.home {
+    position: relative;
+    .welcome {
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 250px;
+        &__title {
+            color: var(--white);
+        }
+        &__subtitle {
+            color: var(--white);
+        }
+    }
+    .opacitydiv {
+        background-color: rgba(247, 247, 247, 0.200);
+        position: absolute;
+        z-index: 0;
+        left: 0px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
