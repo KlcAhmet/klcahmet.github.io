@@ -13,6 +13,7 @@
     --title-font: 'Prompt', sans-serif;
     --subtitle-font: 'Libre Baskerville', serif;
     --page-margin: 85px;
+    --navBar-hover-width: 160px;
 }
 
 
@@ -48,14 +49,48 @@
 }
 
 .navBar {
-    background-color: #000;
+    background-color: #111111;
+    border-right: 1px solid var(--dark);
     z-index: 3;
     width: var(--page-margin);
     height: 100vh;
-    li {
-        color: white;
-    }
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* transition */
+    &__burger {
+        text-align: center;
+        color: var(--welcome-text-color);
+    }
+    ul {
+        padding-left: 35px;
+        list-style: none;
+    }
+    a {
+        color: var(--welcome-text-color);
+        font-family: var(--subtitle-font);
+        font-weight: bold;
+        text-decoration: none;
+        .hidden {
+            visibility: hidden;
+            position: absolute;
+            opacity: 0;
+            transition: visibility 0s, opacity 1s linear;
+        }
+    }
+    &:hover {
+        -webkit-transition: width 1s 0s ease;
+        -moz-transition: width 1s 0s ease;
+        -o-transition: width 1s 0s ease;
+        transition: width 1s 0s ease;
+        width: var(--navBar-hover-width);
+        .hidden {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
 }
