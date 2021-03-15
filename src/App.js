@@ -18,10 +18,8 @@ function App() {
     <div className="App">
       <Router>
         <div className="row row--margin">
-          <div className="col-1">
-            <Header />
-          </div>
-          <div className="col-11 col--padding">
+          <Header />
+          <div className="col-12 col--padding">
             <main>
               <div className="">
                 <Switch>
