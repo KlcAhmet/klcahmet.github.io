@@ -4,7 +4,7 @@ import {
   Route
 } from "react-router-dom"
 
-import { Homepage, Header, Footer, Hakkımda } from './components map/Map'
+import { Homepage, Header, Footer, Hakkımda, Projeler } from './components map/Map'
 /* CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/particles.css'
@@ -25,6 +25,7 @@ function App() {
                 <Route path="/" component={Homepage} />
               </Switch>
               <Hakkımda />
+              <Projeler />
             </main>
             <Footer />
           </div>
