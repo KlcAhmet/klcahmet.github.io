@@ -12,6 +12,7 @@
     --welcome-text-color: #deeee9;
     --title-font: 'Prompt', sans-serif;
     --subtitle-font: 'Libre Baskerville', serif;
+    --page-margin: 85px;
 }
 
 
@@ -44,4 +45,17 @@
             font-size: 15px;
         }
     }
+}
+
+.navBar {
+    background-color: #000;
+    z-index: 3;
+    width: var(--page-margin);
+    height: 100vh;
+    li {
+        color: white;
+    }
+    position: fixed;
+    top: 0;
+    left: 0;
 }
