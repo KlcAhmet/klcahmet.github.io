@@ -6,7 +6,7 @@ import {
 
 import { Homepage, Header, Footer } from './components map/Map'
 /* CSS */
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/particles.css'
 import './css/particle.css'
 import './css/App.css'
