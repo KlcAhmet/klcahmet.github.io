@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 src/css/particle.css.map
 # css files
-src/css/particle.css
 src/css/App.css.map
 src/css/App.css
+src/css/particle.css
