@@ -20,12 +20,6 @@ function Header() {
                     </a>
                 </li>
                 <li>
-                    <a href="#yetenekler" role="button">
-                        <span>Y</span>
-                        <span className="hidden">etenekler</span>
-                    </a>
-                </li>
-                <li>
                     <a href="#cv" role="button">
                         <span>C</span>
                         <span className="hidden">V</span>
