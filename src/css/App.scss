@@ -1,6 +1,23 @@
-body {
-    /* background-color: #000; */
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url("./font/LibreBaskerville-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: 'Prompt';
+    src: url("./font/LibreBaskerville-Regular.ttf") format("truetype");
+}
+
+:root {
+    --welcome-text-color: #deeee9;
+    --title-font: 'Prompt', sans-serif;
+    --subtitle-font: 'Libre Baskerville', serif;
+}
+
+
+/* body {
+    background-color: #000;
+} */
 
 .home {
     position: relative;
@@ -16,10 +33,15 @@ body {
         justify-content: center;
         padding-left: 250px;
         &__title {
-            color: var(--white);
+            color: var(--welcome-text-color);
+            font-family: var(--title-font);
+            font-size: 40px;
+            font-weight: bold;
         }
         &__subtitle {
-            color: var(--white);
+            color: var(--welcome-text-color);
+            font-family: var(--subtitle-font);
+            font-size: 15px;
         }
     }
 }
