@@ -1,5 +1,6 @@
 .row--margin {
   margin: 0;
+  padding-left: var(--page-margin);
 }
 
 .col--padding {
