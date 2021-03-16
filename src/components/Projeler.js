@@ -1,6 +1,6 @@
 const Projeler = () => {
     return (
-        < div className="row" >
+        < div className="row row-yazı--margin" >
             <div className="col-12 bilgi--divColor d-flex justify-content-center">
                 <div className="bilgi col-7">
                     <h3 className="bilgi__title bilgi__title--white">Projelerim</h3>
