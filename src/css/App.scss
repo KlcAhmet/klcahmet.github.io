@@ -94,3 +94,31 @@
         }
     }
 }
+
+.bilgi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    &__title {
+        font-family: var(--title-font);
+        font-size: 30px;
+        font-weight: bold;
+        &--white {
+            color: var(--white);
+        }
+    }
+    &__paragraph {
+        font-family: var(--subtitle-font);
+        font-size: 15px;
+        &--white {
+            color: var(--white);
+        }
+        &--gray {
+            color: var(--gray);
+        }
+    }
+    &--divColor {
+        background-color: #6e3c3d;
+    }
+}
