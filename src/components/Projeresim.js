@@ -14,38 +14,46 @@ function Projeresim() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 img-fluid"
-                        src="https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                        alt="First slide"
+                        src="https://raw.githubusercontent.com/KlcAhmet/klcahmet.github.io/master-react/src/img/proje/covid1.png"
+                        alt="Covid-19 Information"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Covid-19 Information</h3>
+                        <a href="https://klcahmet.github.io/kodluyoruz-final-proje/" target="_blank">Covid-19 bilgilendirme sitesi</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 img-fluid"
-                        src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        alt="Second slide"
+                        src="https://raw.githubusercontent.com/KlcAhmet/klcahmet.github.io/master-react/src/img/proje/ulke%20bilgileri.png"
+                        alt="Country Information"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Country Information</h3>
+                        <a href="https://klcahmet.github.io/datatable-test/" target="_blank">Aradığınız içeriğe göre ülkeleri gösteren site</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 img-fluid"
-                        src="https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        alt="Third slide"
+                        src="https://raw.githubusercontent.com/KlcAhmet/klcahmet.github.io/master-react/src/img/proje/Sentiment-Analysis.png"
+                        alt="Sentiment Analysis"
                     />
-
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+                        <h3>Sentiment Analysis</h3>
+                        <a href="https://github.com/KlcAhmet/Sentiment-Analysis" target="_blank">İngilizce metinden duygu çıkarımı yapan program</a>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 img-fluid"
+                        src="https://raw.githubusercontent.com/KlcAhmet/klcahmet.github.io/master-react/src/img/proje/datahouse.png"
+                        alt="Sentiment Analysis"
+                    />
+                    <Carousel.Caption>
+                        <h3>Data Warehouse</h3>
+                        <a href="https://klcahmet.github.io/kodluyoruz-odev-V/" target="_blank">Data Warehouse Template</a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
