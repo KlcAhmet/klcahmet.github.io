@@ -1,9 +1,9 @@
 const Hakkımda = () => {
     return (
         < div className="row row-yazı--margin" >
-            <div className="bilgi">
-                <h3 className="bilgi__title">Hakkımda</h3>
-                <p className="bilgi__paragraph bilgi__paragraph--gray">
+            <div className="bilgi bilgi--divColor">
+                <h3 className="bilgi__title--white">Hakkımda</h3>
+                <p className="bilgi__paragraph bilgi__paragraph--white">
                     Merhaba. Ben Ahmet Batuhan Kılıç. Bilgisayar Mühendisliği okuyorum. Front-end developer olarak kariyerime
                     devam etmekteyim. Freelance web geliştiriyorum. Mühendislik hayatım Konya'da Kto Karatay Üniversitesinde başladı ve Düzce Üniversitesine yatay geçiş yaptım.
                     Zamanımın büyük bir kısmını kariyerim için çalışarak geçiriyorum. Kalan zamanlarımda hobilerim olarak satranç turnuvalarına katılıyorum,

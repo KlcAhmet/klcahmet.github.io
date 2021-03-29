@@ -140,3 +140,25 @@
         padding-right: 600px;
     }
 }
+
+.cv {
+    height: 100vh;
+    .--cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &--divColor {
+        background-color: #6e3c3d;
+    }
+    &-img {
+        width: 300px;
+    }
+    &-jop {
+        color: var(--white);
+    }
+}
+
+.footer {
+    background-color: #000;
+}

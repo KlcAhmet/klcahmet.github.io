@@ -1,6 +1,15 @@
+
+
 function Footer() {
     return (
-        <p>test footer</p>
+        <div className="col-12 footer">
+
+            <h5 className="footer-title">İletişim</h5>
+            <div className="footer-media">
+
+            </div>
+
+        </div>
     )
 }
 
