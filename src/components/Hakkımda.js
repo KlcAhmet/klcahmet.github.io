@@ -9,7 +9,7 @@ const Hakkımda = () => {
                     Zamanımın büyük bir kısmını kariyerim için çalışarak geçiriyorum. Kalan zamanlarımda hobilerim olarak satranç turnuvalarına katılıyorum,
                     bisikletim ile orman yollarında veya downhill MTB sürüşleri yapıyorum. Sosyal olarak Konya'da bulunduğum dönemlerde Sivil Yaşam Derneği üyesiydim ve
                     bir çok organizasyonunda görev aldım. Şuan Best Buddies International'ın Türkiye organizasyonu olan Best Buddies Türkiye organizasyonun E-Buddies
-                    yazılımında gönüllü olarak Front-end yazılımcı olarak görev almaktayım.
+                    yazılımında gönüllü olarak Front-end developer olarak görev almaktayım.
                 </p>
             </div>
         </div >
