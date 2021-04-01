@@ -1,3 +1,4 @@
+@import './animate.min.css';
 @font-face {
     font-family: 'Libre Baskerville';
     src: url("./font/LibreBaskerville-Regular.ttf") format("truetype");
@@ -43,5 +44,32 @@
             font-family: var(--subtitle-font);
             font-size: 15px;
         }
+    }
+}
+
+.startpage {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+    &-up {
+        background-color: #eff3f23b;
+        height: 50vh;
+        padding: 0;
+        animation: slideOutUp;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+    &-down {
+        background-color: #eff3f23b;
+        height: 50vh;
+        padding: 0;
+        animation: slideOutDown;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
     }
 }
