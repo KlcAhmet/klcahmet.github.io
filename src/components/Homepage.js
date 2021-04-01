@@ -1,4 +1,5 @@
 import Particle from "./Particle"
+import { Col } from 'react-bootstrap';
 
 function Homepage() {
     return (
@@ -6,10 +7,10 @@ function Homepage() {
             <div className="particle">
                 <Particle />
             </div>
-            <div className="welcome">
+            <Col className="welcome" xs={12}>
                 <h1 className="welcome__title">Ahmet Batuhan Kılıç</h1>
                 <p className="welcome__subtitle">Front-end Developer</p>
-            </div>
+            </Col>
         </div>
     )
 }

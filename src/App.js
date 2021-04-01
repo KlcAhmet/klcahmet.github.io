@@ -3,8 +3,9 @@ import {
   Switch,
   Route
 } from "react-router-dom"
+import { Col } from 'react-bootstrap';
 
-import { Homepage, Header, Footer, Hakkımda, Projeler, Cv } from './components map/Map'
+import { Homepage } from './components map/Map'
 /* CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/particles.css'
@@ -17,20 +18,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className="row row--margin">
-          <Header />
-          <div className="col-12 col--padding">
-            <main>
-              <Switch>
-                <Route path="/" component={Homepage} />
-              </Switch>
-              <Hakkımda />
-              <Projeler />
-              <Cv />
-            </main>
-            <Footer />
-          </div>
-        </div>
+        <Col style={{ padding: 0 }}>
+          <Switch>
+            <Route path="/" component={Homepage} />
+          </Switch>
+        </Col>
       </Router >
     </div>
   );
