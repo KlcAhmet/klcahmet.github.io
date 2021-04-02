@@ -21,6 +21,13 @@
     background-color: #000;
 } */
 
+.loading {
+    animation: flash;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
+
 .home {
     position: relative;
     .welcome {

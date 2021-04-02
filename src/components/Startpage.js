@@ -22,7 +22,9 @@ const Startpage = () => {
                     </Row>
                 </div>
             </Col>
-            <Col className="startpage-down" xs={12}></Col>
+            <Col className="startpage-down" xs={12}>
+                <p className="loading" style={{ fontSize: 25, color: 'white', marginLeft: 50 }}>Loading...</p>
+            </Col>
         </Row>
     )
 }
