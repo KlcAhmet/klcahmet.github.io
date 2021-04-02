@@ -18,11 +18,11 @@ function Homepage() {
                 <h1 className="welcome-title">Ahmet Batuhan Kılıç</h1>
                 <p className="welcome-subtitle">Front-end Developer</p>
                 <div className="welcome-socialmedia">
-                    <a href="https://github.com/KlcAhmet" target="_blank"><img className="welcome-socialmedia-github" src={Github} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/ahmet-batuhan-kılıç-b88975129/" target="_blank"><img className="welcome-socialmedia-linkedin" src={Linkedin} alt="" /></a>
-                    <a href="https://www.instagram.com/ahmetbatukilic/" target="_blank"><img className="welcome-socialmedia-ins" src={Instagram} alt="" /></a>
-                    <a href="https://g.page/AhmetBatuhanKilic?share" target="_blank"><img className="welcome-socialmedia-google" src={Google} alt="" /></a>
-                    <a href="mailto:ahmetbatukilic@gmail.com"><img className="welcome-socialmedia-env" src={Envelope} alt="" /></a>
+                    <a href="https://github.com/KlcAhmet" target="_blank" rel="noreferrer"><img className="welcome-socialmedia-github" src={Github} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/ahmet-batuhan-kılıç-b88975129/" target="_blank" rel="noreferrer"><img className="welcome-socialmedia-linkedin" src={Linkedin} alt="" /></a>
+                    <a href="https://www.instagram.com/ahmetbatukilic/" target="_blank" rel="noreferrer"><img className="welcome-socialmedia-ins" src={Instagram} alt="" /></a>
+                    <a href="https://g.page/AhmetBatuhanKilic?share" target="_blank" rel="noreferrer"><img className="welcome-socialmedia-google" src={Google} alt="" /></a>
+                    <a href="mailto:ahmetbatukilic@gmail.com" rel="noreferrer"><img className="welcome-socialmedia-env" src={Envelope} alt="" /></a>
                 </div>
             </Col>
         </div>
