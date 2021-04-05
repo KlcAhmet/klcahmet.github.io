@@ -7,7 +7,7 @@ const Startpage = () => {
     const hidden = () => {
         setTimeout(function () {
             document.getElementById('startpage').classList.add("hidden")
-        }, 9000);
+        }, 8700);
     }
 
 

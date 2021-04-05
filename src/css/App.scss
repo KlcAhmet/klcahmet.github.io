@@ -13,7 +13,8 @@
     --welcome-text-color: #deeee9;
     --title-font: 'Prompt', sans-serif;
     --subtitle-font: 'Libre Baskerville', serif;
-    --home-anim-delay: 5.2s;
+    --home-anim-delay: 0;
+    --home-anim-delaysup: 0;
 }
 
 
@@ -30,6 +31,7 @@
 
 .home {
     position: relative;
+    overflow: hidden;
     .welcome {
         position: absolute;
         z-index: 1;
@@ -93,6 +95,33 @@
             }
             &-linkedin {
                 background-color: #378fe9;
+            }
+        }
+        &-sup {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            img {
+                margin-right: 15px;
+                width: 80px;
+                &:hover {
+                    animation: tada;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                }
+            }
+            &-kodluyoruz {
+                margin-top: 5px;
+                animation: bounceInLeft;
+                animation-duration: 3s;
+                animation-fill-mode: forwards;
+                animation-delay: var(--home-anim-delaysup);
+            }
+            &-buddies {
+                animation: bounceInRight;
+                animation-duration: 3s;
+                animation-fill-mode: forwards;
+                animation-delay: var(--home-anim-delaysup);
             }
         }
     }
